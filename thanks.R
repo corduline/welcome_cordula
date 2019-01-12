@@ -4,3 +4,6 @@
 
 # You're amazing! 
 # Cordula
+
+
+cat('You are very welcome. I hope that we will not only keep in touch on GitHub.')
