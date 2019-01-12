@@ -103,7 +103,56 @@ https://github.com/corduline/welcome cordula. You can get these files, and write
 If you need help, create a repository, I can fork it, make amendments, and let you know how you can get it back, I cannot show it right now.  
 
 
+##Redeiving what you did
+
+I go back to my repository. 
+
+```{r step10, echo=FALSE, out.width='90%', fig.align='center'}
+knitr::include_graphics(path = file.path('images', 'step11.png'))
+```
+
+I make a __comparison accross forks__.
+
+```{r step12, echo=FALSE, out.width='90%', fig.align='center'}
+knitr::include_graphics(path = file.path('images', 'step12.png'))
+```
+
+I choose your fork, and I got a comparison.
+
+What can go wrong? Usually if there are more than 2 collaborators, and the forks are crossing each other, that can cause a problem. But that is not a concern now. 
 
 
+It says. 
+ __Able to merge__. These branches can be automatically merged.
+ 
+ 
+```{r step13, echo=FALSE, out.width='90%', fig.align='center'}
+knitr::include_graphics(path = file.path('images', 'step13.png'))
+```
 
+The master branch belongs to me, because I started this demo.  I leave a comment when I merge your modifications. I type 
+
+>I will try to merge this!
+
+.. and press __Create pull request__.
+
+It will check that in the meantime we did not cross-post each other. 
+
+```{r step14, echo=FALSE, out.width='90%', fig.align='center'}
+knitr::include_graphics(path = file.path('images', 'step14.png'))
+```
+
+Evertything is fine, I will bring your modification into my repository.
+
+```{r step15, echo=FALSE, out.width='90%', fig.align='center'}
+knitr::include_graphics(path = file.path('images', 'step15.png'))
+```
+
+##Downloading your first contribution
+
+Back to RStudio, where I press the Pull button.
+
+```{r step16, echo=FALSE, out.width='90%', fig.align='center'}
+knitr::include_graphics(path = file.path('images', 'step16.png'))
+```
 
