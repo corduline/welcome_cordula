@@ -1,0 +1,69 @@
+---
+title: "Welcome Cordula"
+author: "Daniel"
+date: "January 12, 2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Create a repository
+
+- You have to fill out the name.
+
+- Make sure the repository is not totally empty. The easiest is to tick initialize with README.  That will create a blank REAMDE.md file. 
+
+Try it with something different than welcome_cordula.  You will receive at the end welcome_cordula from my repostiory.
+
+```{r step1}
+knitr::include_graphics(path = file.path('images', 'step1.png'))
+```
+
+You will get here
+
+```{r step2, echo=FALSE}
+knitr::include_graphics(path = file.path('images', 'step2.png'))
+```
+
+## Installation of Git and Synchronizing with RStudio
+
+You have to refer to this [article](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN) but very briefly. This needs to be done. I use Windows 10, I think you use Mac, right?  Must be very straightforward.
+
+
+##Using GitHub in RStudio
+
+File / Start a new project, and select version control. 
+
+```{r step3, echo=FALSE}
+knitr::include_graphics(path = file.path('images', 'step3.jpg'))
+```
+
+Choose Git
+
+```{r step4, echo=FALSE}
+knitr::include_graphics(path = file.path('images', 'step4.jpg'))
+```
+
+Clone from Git Repository. Just copy + paste your repository URL that you created in the first step.
+
+```{r step5, echo=FALSE}
+knitr::include_graphics(path = file.path('images', 'step5.png'))
+```
+
+Now just to follow me, create any new file. You can also copy your existing project here. In the picture below, I am creating this Welcome.Rmd file for you!
+
+```{r step6, echo=FALSE}
+knitr::include_graphics(path = file.path('images', 'step6.png'))
+```
+
+##Synchronizing
+
+Now I made my screenshots, saved them to `images/` and RStudio+Git added a few other files, too, including the rather important `.gitignore.` (Do not delete it.)
+
+If you click Git in the window pane for `Environment / History / Connections / Git`, then you will see all your synchronized files with green, deleted with red, and others that wait to be synchronized with yellow. 
+
+```{r step6, echo=FALSE}
+knitr::include_graphics(path = file.path('images', 'step7.png'))
+```
