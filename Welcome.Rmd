@@ -64,6 +64,29 @@ Now I made my screenshots, saved them to `images/` and RStudio+Git added a few o
 
 If you click Git in the window pane for `Environment / History / Connections / Git`, then you will see all your synchronized files with green, deleted with red, and others that wait to be synchronized with yellow. 
 
-```{r step6, echo=FALSE}
+```{r step7, echo=FALSE}
 knitr::include_graphics(path = file.path('images', 'step7.png'))
 ```
+
+Time to synchronize them. Tick all the new files.
+
+
+```{r step8, echo=FALSE}
+knitr::include_graphics(path = file.path('images', 'step8.png'))
+```
+
+Now press Commit.  A new window will pop up where you can review all changes in all ticked files. 
+
+```{r step9, echo=FALSE}
+knitr::include_graphics(path = file.path('images', 'step9.png'))
+```
+
+It is mandatory to fill in a description.  I typed `initial commit`. After writing a short description and pressing Commit again, it will upload everything to github.
+
+```{r step10, echo=FALSE}
+knitr::include_graphics(path = file.path('images', 'step10.png'))
+```
+
+
+##Check it out and download it to your computer
+
